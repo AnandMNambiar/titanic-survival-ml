@@ -1,34 +1,48 @@
-
 # Titanic Survival Prediction 🚢
 
-## Overview
+## 📌 Overview
 
-This project uses Machine Learning to predict whether a passenger survived the Titanic disaster.
+This project predicts whether a passenger survived the Titanic disaster using Machine Learning.
 
-## Steps Performed
+---
 
-* Data loading and exploration
-* Handling missing values
-* Encoding categorical variables
+## ⚙️ Workflow
+
+* Data loading using Pandas
+* Handling missing values (Age, Embarked)
+* Dropping irrelevant features (Cabin, Name, Ticket)
+* Encoding categorical variables (Sex, Embarked)
 * Feature selection
-* Model training using Logistic Regression
+* Train-test split
+* Logistic Regression model
 
-## Model Accuracy
+---
 
-Achieved approximately **80% accuracy** on test data.
+## 📊 Results
 
-## Tech Stack
+* Model: Logistic Regression
+* Accuracy: **~80%**
+
+---
+
+## 🛠️ Tech Stack
 
 * Python
 * Pandas
+* NumPy
 * Scikit-learn
 * Jupyter Notebook
 
-## Files
+---
+
+## 📁 Files
 
 * `titanic_preprocessing.ipynb` → Full workflow
-* `cleaned_titanic.csv` → Final processed dataset
+* `cleaned_titanic.csv` → Final dataset
+* `train.csv` → Raw dataset
 
-## Author
+---
 
-Your Name
+## 👨‍💻 Author
+
+Anand M Nambiar
